@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    background-color: #0D1117;
+    color: #FFFFFF;
+    direction: rtl;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1616787643440-fb85ede04f97?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #00AEEF;
+    color: #FFF;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-item {
+    width: 200px;
+    text-align: center;
+}
+
+.interior {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.interior .text {
+    flex: 1 1 300px;
+}
+
+.interior .image {
+    flex: 1 1 300px;
+}
+
+.interior img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.performance .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.performance .stat {
+    text-align: center;
+}
+
+.performance .number {
+    font-size: 2rem;
+    color: #00AEEF;
+}
+
+.performance .label {
+    display: block;
+    margin-top: 5px;
+}
+
+.safety ul {
+    list-style: none;
+    padding: 0;
+}
+
+.safety li {
+    margin-bottom: 10px;
+}
+
+.gallery .swiper {
+    width: 100%;
+    height: 400px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.financing-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.financing-section th,
+.financing-section td {
+    border: 1px solid #00AEEF;
+    padding: 10px;
+    text-align: center;
+}
+
+.lead form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.lead input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #1B2838;
+    text-align: center;
+    padding: 20px;
+    color: #B3B3B3;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .performance .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+}
