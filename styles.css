@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: 'Heebo', sans-serif;
-    background-color: #0D1117;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #333333;
     direction: rtl;
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -11,7 +12,8 @@ h1, h2, h3 {
 }
 
 .hero {
-    background: url('https://images.unsplash.com/photo-1616787643440-fb85ede04f97?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+    background: url('https://i.imgur.com/WLWDQaV.png') center/cover no-repeat;
+    color: #FFFFFF;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -27,7 +29,7 @@ h1, h2, h3 {
 
 .cta-btn {
     display: inline-block;
-    background-color: #00AEEF;
+    background-color: #0078D7;
     color: #FFF;
     padding: 12px 30px;
     border-radius: 4px;
@@ -86,7 +88,7 @@ section {
 
 .performance .number {
     font-size: 2rem;
-    color: #00AEEF;
+    color: #0078D7;
 }
 
 .performance .label {
@@ -114,17 +116,7 @@ section {
     object-fit: cover;
 }
 
-.financing-section table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
-.financing-section th,
-.financing-section td {
-    border: 1px solid #00AEEF;
-    padding: 10px;
-    text-align: center;
-}
 
 .lead form {
     display: flex;
@@ -141,10 +133,10 @@ section {
 }
 
 .footer {
-    background-color: #1B2838;
+    background-color: #E0E0E0;
     text-align: center;
     padding: 20px;
-    color: #B3B3B3;
+    color: #333333;
 }
 
 .hidden {
