@@ -12,7 +12,8 @@ h1, h2, h3 {
 }
 
 .hero {
-    background: url('https://i.imgur.com/WLWDQaV.png') center/cover no-repeat;
+    background: url('https://i.imgur.com/5PPkyio.png') center/cover no-repeat;
+    position: relative;
     color: #FFFFFF;
     min-height: 100vh;
     display: flex;
@@ -20,6 +21,18 @@ h1, h2, h3 {
     justify-content: center;
     text-align: center;
     padding: 0 20px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
 }
 
 .hero-content h1 {
@@ -115,8 +128,6 @@ section {
     height: 100%;
     object-fit: cover;
 }
-
-
 
 .lead form {
     display: flex;
